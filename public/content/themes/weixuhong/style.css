@@ -1,0 +1,27 @@
+/*
+Theme Name:     Weixuhong
+Theme URI:      
+Description:    Frontopen2 child theme.
+Author:         Me
+Author URI:     
+Template:       frontopen2
+Version:        0.1.0
+*/
+
+@import '../frontopen2/style.css';
+
+/*#container, .main {
+	background: #FFF;
+	padding: 10px;
+	width: 70%;
+}
+
+#primary {
+	background: #FFF;
+	padding: 10px;
+}
+
+.side .widget-container {
+	border-bottom: 0;
+	margin: 10px 0 20px 0;
+}*/

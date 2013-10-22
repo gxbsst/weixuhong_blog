@@ -1,6 +1,6 @@
 <?php
+define('DB_NAME', 'weixuhong');
 
-define('DB_NAME', 'wordpress_template');
 /** MySQL database username */
 define('DB_USER', 'root');
 
