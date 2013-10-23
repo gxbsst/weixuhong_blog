@@ -1,4 +1,6 @@
 <?php
+define('WP_HOME', 'http://www.weixuhong.com');
+
 define('DB_NAME', 'weixuhong');
 
 /** MySQL database username */

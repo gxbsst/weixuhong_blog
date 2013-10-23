@@ -25,9 +25,8 @@ namespace :deploy do
 		
 		# put File.read("public/wp-config.php"), "#{shared_path}/config/wp-config.php"
 		# put File.read("config/wordpress.php"), "#{shared_path}/config/wordpress.php"
-		put File.read("config/env/local.php"), "#{shared_path}/config/env/local.php"
-		put File.read("config/env/development.php"), "#{shared_path}/config/env/development.php"
-		put File.read("config/env/production.php"), "#{shared_path}/config/env/production.php"
+		put File.read("config/env/development.php.example"), "#{shared_path}/config/env/development.php"
+		put File.read("config/env/production.php.example"), "#{shared_path}/config/env/production.php"
 		puts "Now edit the config files in #{shared_path}."
 	end
 
@@ -37,7 +36,7 @@ namespace :deploy do
 		# run "rm -rvf #{release_path}/public/site"
 		# run "ln -nfs #{shared_path}/config/wp-config.php #{release_path}/public/wp-config.php"
 		# run "ln -nfs #{shared_path}/config/wordpress.php #{release_path}/config/wordpress.php"
-		run "ln -nfs #{shared_path}/config/env/local.php #{release_path}/config/env/local.php"
+		# run "ln -nfs #{shared_path}/config/env/local.php #{release_path}/config/env/local.php"
 		run "ln -nfs #{shared_path}/config/env/development.php #{release_path}/config/env/development.php"
 		run "ln -nfs #{shared_path}/config/env/production.php #{release_path}/config/env/production.php"
 		run "ln -nfs #{shared_path}/uploads #{release_path}/public/content/uploads"

@@ -1,4 +1,6 @@
 public/content/uploads/*
-vendor
 log/*
+config/env/local.php
+config/env/development.php
+config/env/production.php
 
