@@ -1,0 +1,20 @@
+{
+    "name": "gxbsst/template",
+    "authors": [
+        {
+            "name": "gxbsst",
+            "email": "gxbsst@gmail.com"
+        }
+    ],
+    "require": {
+     "slim/slim": "2.3.*",
+     "twig/twig": "1.13.*",
+     "monolog/monolog": "1.6.*",
+     "flynsarmy/slim-monolog": "dev-master"
+    },
+    "autoload": {
+        "psr-0" : {
+            "app" : ""
+        }
+    }
+}
