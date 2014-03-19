@@ -1,5 +1,5 @@
 <?php
-
+define('WP_ALLOW_REPAIR', true); 
 define('APP_ROOT', dirname(__DIR__) );
 
 define('APP_ENV', getenv('APPLICATION_ENV'));
